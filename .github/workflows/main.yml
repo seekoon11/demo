@@ -50,7 +50,7 @@ jobs:
           TOKEN: "4f63e2db-0117-45b2-bf1a-135279f19c3e"
           APPLICATION: "Demo"
           VERSION: "3"
-          BUILD_OPTS: "none"
+          BUILD_OPTS: "-bt none"
 
       ### Archive ScanCentral Client logs on failure ###
       - name: Save ScanCentral Logs
