@@ -49,7 +49,7 @@ jobs:
       - name: Perform SAST Scan
         run:  scancentral -url http://211.24.79.232:8080/ssc start $BUILD_OPTS -upload -application $APPLICATION -version 3 -uptoken $TOKEN -scan Xmx2G
         env:                                            
-          TOKEN: 70b7c678-0b77-4185-a502-59a44d40fe58
+          TOKEN: 1e6368d5-fff0-40f4-bc2e-14898325311e
           APPLICATION: Demo
           BUILD_OPTS: "-bt none"
 
