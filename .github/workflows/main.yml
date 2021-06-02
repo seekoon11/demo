@@ -46,7 +46,7 @@ jobs:
       - name: Perform SAST Scan
         run: scancentral -url http://211.24.79.232:8081/scancentral-ctrl  start $BUILD_OPTS -upload -application $APPLICATION -version $VERSION -uptoken $TOKEN 
         env:                                            
-          TOKEN: 74d31cd8-44d8-4a20-a450-76b5648de473
+          TOKEN: f1bb8774-d845-4ea4-bd18-b6a816ca74c4
           APPLICATION: Demo
           VERSION: 3
           BUILD_OPTS: "-bt none"
