@@ -47,7 +47,7 @@ jobs:
      # scancentral -url http://211.24.79.232:8080/ssc start $BUILD_OPTS -upload -application $APPLICATION -version 3 -uptoken $TOKEN
      #scancentral -url http://211.24.79.232:8080/ssc -uptoken $TOKEN start $BUILD_OPTS -upload -application $APPLICATION -version 3  
       - name: Perform SAST Scan
-        run:  scancentral -url http://211.24.79.232:8081/scancentral-ctrl start -bt none -upload -application Demo -version 3 -uptoken $TOKEN -scan Xmx2G
+        run:  scancentral -url http://211.24.79.232:8081/scancentral-ctrl start -bt none -upload -application Demo -version 3 -uptoken 5208f6f8-0506-4d7a-b374-7e8ffaf90a48
         env:                                            
           TOKEN: 5208f6f8-0506-4d7a-b374-7e8ffaf90a48
           APPLICATION: Demo
