@@ -1,4 +1,16 @@
 # Maven
+- task: FortifySCA@7
+  inputs:
+    licenseFile: 'C:\Users\Administrator\Desktop\Fortify_SecurityAssistant_Eclipse_Plugin_20.1\fortify.license'
+    runBuildTranslate: true
+    applicationType: 'java'
+    fortifyBuildId: 'AZURE_TEST'
+    runFortifyRulepackUpdate: false
+    runFortifyClean: true
+    scaVerbose: false
+    scaDebug: false
+    runFortifyScan: true
+    fortifyScanType: 'LocalScan'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
